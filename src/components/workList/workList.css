@@ -29,6 +29,7 @@
 
 @media screen and (max-width: 480px) {
     .workList {
+        margin-top: 10%;
         padding: 10%;
         text-align: left;
     }

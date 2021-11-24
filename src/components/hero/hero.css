@@ -33,6 +33,7 @@
 @media screen and (max-width: 480px) {
     .hero {
         flex-direction: column;
+        padding-top: 0;
     }
     .hero-right {
         display: none;
