@@ -1,0 +1,40 @@
+.hero {
+    display: flex;
+    height: 75vh;
+    text-align: left;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hero-left {
+    flex: 1;
+    padding: 10%;
+}
+
+.hero-right {
+    flex: 1;
+}
+
+.hero-text {
+    flex: 1;
+    font-size: 34pt;
+    font-weight: normal;
+}
+
+.hero-bold {
+    font-weight: bold;
+}
+
+.james-portrait {
+    border: 2px solid black;
+    box-shadow: 9px 9px;
+}
+
+@media screen and (max-width: 480px) {
+    .hero {
+        flex-direction: column;
+    }
+    .hero-right {
+        display: none;
+    }
+}

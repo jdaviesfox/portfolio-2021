@@ -1,0 +1,19 @@
+.contact {
+    height: 50vh;
+    width: 100%;
+    background-color: #F6F6F6;
+    position: absolute;
+    z-index: 0;
+    padding: 5% 10%;
+}
+
+.contact-title {
+    font-size: 34pt;
+}
+
+@media screen and (max-width: 480px) {
+    .contact {
+        flex-direction: column;
+        padding: 10% 10%;
+    }
+}
