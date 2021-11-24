@@ -8,8 +8,8 @@ const Hero = () => {
             <div className="hero-left">
                 <div className="hero-text">
                     Hello, I'm James - a 
-                    <span className="hero-bold">frontend developer </span>
-                    and <span className="hero-bold">UX/UI designer </span>
+                    <span className="hero-bold"> frontend developer </span>
+                    and<span className="hero-bold"> UX/UI designer </span>
                     based in Sydney.
                 </div>
                 <Button
